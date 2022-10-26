@@ -1,0 +1,51 @@
+*{
+    font-family: 'SF Pro Display', sans-serif;
+}
+header{   
+    max-width: 100vw;
+    background-color: black;
+
+}
+.navmenu{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin: 0 auto;
+    max-width: 1512px;
+    height: 44px;
+}
+nav{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    max-width: 1000px;
+}
+.navmenu a{
+    color: white;
+    text-decoration: none;
+}
+.firstcol{
+        margin: 0 auto;
+        max-width: 1512px;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        width: 870px;
+        height: 692px;
+}
+.BG-black{
+    background-color: black;
+    width: 100vw;
+    height: 736px;
+    margin-top: 10px;
+}
+.BG-image{
+    margin: 0 auto;
+    display: flex;
+    justify-content: center;
+    background-image: url(/image/iphonebla.png);
+    
+}
+.txtWh{
+    color: white;
+}
